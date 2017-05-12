@@ -15,6 +15,7 @@
 		51CC95631EC63AF900C50E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CC95611EC63AF900C50E82 /* LaunchScreen.storyboard */; };
 		51CC956E1EC63AF900C50E82 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC956D1EC63AF900C50E82 /* Tic_Tac_ToeTests.swift */; };
 		51CC95791EC643C000C50E82 /* PlayerInputImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC95781EC643C000C50E82 /* PlayerInputImageView.swift */; };
+		51CC957B1EC64E6100C50E82 /* MultipeerConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC957A1EC64E6100C50E82 /* MultipeerConnectivityHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		51CC956D1EC63AF900C50E82 /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
 		51CC956F1EC63AF900C50E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CC95781EC643C000C50E82 /* PlayerInputImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInputImageView.swift; sourceTree = "<group>"; };
+		51CC957A1EC64E6100C50E82 /* MultipeerConnectivityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				51CC95641EC63AF900C50E82 /* Info.plist */,
 				51CC955C1EC63AF900C50E82 /* Tic_Tac_Toe.xcdatamodeld */,
 				51CC95781EC643C000C50E82 /* PlayerInputImageView.swift */,
+				51CC957A1EC64E6100C50E82 /* MultipeerConnectivityHandler.swift */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CC957B1EC64E6100C50E82 /* MultipeerConnectivityHandler.swift in Sources */,
 				51CC95791EC643C000C50E82 /* PlayerInputImageView.swift in Sources */,
 				51CC955E1EC63AF900C50E82 /* Tic_Tac_Toe.xcdatamodeld in Sources */,
 				51CC95581EC63AF900C50E82 /* ViewController.swift in Sources */,

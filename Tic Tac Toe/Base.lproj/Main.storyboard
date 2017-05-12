@@ -68,6 +68,17 @@
                         <barButtonItem key="leftBarButtonItem" title="Connect" id="hm1-Yc-dYD"/>
                         <barButtonItem key="rightBarButtonItem" title="New game" id="3uH-bt-uZn"/>
                     </navigationItem>
+                    <connections>
+                        <outletCollection property="playerInputs" destination="fRW-Pb-w9o" collectionClass="NSMutableArray" id="DPj-UT-RtE"/>
+                        <outletCollection property="playerInputs" destination="o6Q-Or-N66" collectionClass="NSMutableArray" id="LGF-TM-hlj"/>
+                        <outletCollection property="playerInputs" destination="Dzf-iK-5cO" collectionClass="NSMutableArray" id="0IP-NB-e1o"/>
+                        <outletCollection property="playerInputs" destination="bZO-Z8-sUw" collectionClass="NSMutableArray" id="rZi-cO-GRN"/>
+                        <outletCollection property="playerInputs" destination="toN-5B-C95" collectionClass="NSMutableArray" id="kIb-Ku-wwu"/>
+                        <outletCollection property="playerInputs" destination="Uhe-F2-FtY" collectionClass="NSMutableArray" id="5Xj-OE-ovj"/>
+                        <outletCollection property="playerInputs" destination="r9M-v1-sfg" collectionClass="NSMutableArray" id="BQQ-fb-jed"/>
+                        <outletCollection property="playerInputs" destination="Hy8-LD-UaE" collectionClass="NSMutableArray" id="ZCD-7y-AJX"/>
+                        <outletCollection property="playerInputs" destination="DMp-hW-pqy" collectionClass="NSMutableArray" id="9Ut-ZE-9nf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
