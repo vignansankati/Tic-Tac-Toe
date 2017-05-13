@@ -25,48 +25,56 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="fRW-Pb-w9o" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRW-Pb-w9o" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="33" y="216" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="o6Q-Or-N66" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o6Q-Or-N66" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="151" y="216" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Dzf-iK-5cO" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzf-iK-5cO" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="274" y="216" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Uhe-F2-FtY" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uhe-F2-FtY" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="274" y="339" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="toN-5B-C95" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toN-5B-C95" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="151" y="339" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="bZO-Z8-sUw" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bZO-Z8-sUw" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="33" y="339" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="r9M-v1-sfg" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9M-v1-sfg" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="33" y="464" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-LD-UaE" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-LD-UaE" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="151" y="464" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="DMp-hW-pqy" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DMp-hW-pqy" customClass="PlayerInputImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="274" y="464" width="73" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kHc-jW-YDB">
-                        <barButtonItem key="leftBarButtonItem" title="Connect" id="hm1-Yc-dYD"/>
-                        <barButtonItem key="rightBarButtonItem" title="New game" id="3uH-bt-uZn"/>
+                        <barButtonItem key="leftBarButtonItem" title="Connect" id="hm1-Yc-dYD">
+                            <connections>
+                                <action selector="connect:" destination="BYZ-38-t0r" id="ZWx-G5-Aeo"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="New game" id="3uH-bt-uZn">
+                            <connections>
+                                <action selector="newGame:" destination="BYZ-38-t0r" id="888-tr-Nab"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outletCollection property="playerInputs" destination="fRW-Pb-w9o" collectionClass="NSMutableArray" id="DPj-UT-RtE"/>
@@ -105,6 +113,5 @@
     </scenes>
     <resources>
         <image name="field" width="320" height="503"/>
-        <image name="x" width="50" height="50"/>
     </resources>
 </document>
