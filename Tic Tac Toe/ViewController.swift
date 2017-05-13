@@ -53,7 +53,7 @@ class ViewController: UIViewController,MCBrowserViewControllerDelegate {
             try appDelegate.multipeerConnectivityHandler.session.send(messageData, toPeers: appDelegate.multipeerConnectivityHandler.session.connectedPeers, with: .reliable)
         }
         catch _ {
-            print("Error")
+            print("Error in new game")
         }
         
         
@@ -117,7 +117,7 @@ class ViewController: UIViewController,MCBrowserViewControllerDelegate {
         if winner != "" {
             let alert = UIAlertController(title: "Tic Tac Toe", message: "The winner is \(winner)", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (alertAction:UIAlertAction!) -> Void in
-                //
+                self.gameReset()
             }))
             self.present(alert, animated: true, completion: nil)
         }
@@ -134,7 +134,7 @@ class ViewController: UIViewController,MCBrowserViewControllerDelegate {
             try appDelegate.multipeerConnectivityHandler.session.send(messageData, toPeers: appDelegate.multipeerConnectivityHandler.session.connectedPeers, with: .reliable)
         }
         catch _ {
-            print("Error")
+            print("Error in input tapped")
         }
         
         checkResult()
@@ -162,11 +162,13 @@ class ViewController: UIViewController,MCBrowserViewControllerDelegate {
             let senderPeerID:MCPeerID = userInfo!["peerID"] as! MCPeerID
             let senderDisplayName = senderPeerID.displayName
             
-            if message.object(forKey: "message") as! String == "New Game" {
+            if (message.object(forKey: "message") as AnyObject).isEqual("New Game") == true{
                 let alert = UIAlertController(title: "Tic Tac Toe", message: "\(senderDisplayName) has started new game", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (alertAction:UIAlertAction!) -> Void in
+                    self.gameReset()
+                }))
                 self.present(alert, animated: true, completion: nil)
-                gameReset()
+//                gameReset()
             } else {
                 let fieldTag:Int? = message.object(forKey: "fieldTag") as? Int
                 let player:String? = message.object(forKey: "player") as? String
@@ -184,7 +186,7 @@ class ViewController: UIViewController,MCBrowserViewControllerDelegate {
         }
         
         catch _ {
-            print("Error")
+            print("Error in handling the device data")
         }
     }
     
